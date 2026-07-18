@@ -1,0 +1,13 @@
+#quizaccess_deadman_warning {
+    opacity: 0;
+    transition: opacity 3600s steps(1, end);
+    position: fixed;
+    top: 0;
+    width: 80%;
+    left: 10%;
+    background-color: LightYellow;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 5px 5px 20px 0 #666;
+    padding: 1em;
+    z-index: 10000;
+}
